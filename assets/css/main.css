@@ -16,6 +16,7 @@ body {
   min-height: 100vh; }
 
 .fb-section {
+  width: 100%;
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
