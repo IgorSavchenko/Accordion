@@ -20,7 +20,8 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
   .fb-section--location {
     background: #620808;
     color: #ffe9c1; }
@@ -46,6 +47,12 @@ body {
     margin: 0 0 0 50px;
     font-size: 24px;
     line-height: 24px; }
+  .fb-section__content {
+    max-height: 400px;
+    transition: all 0.5s ease; }
+    .fb-section__content--hidden {
+      visibility: hidden;
+      max-height: 0; }
   .fb-section__text {
     margin: 0;
     display: block;
