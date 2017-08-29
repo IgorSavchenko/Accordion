@@ -1,0 +1,10 @@
+.fb {
+  width: 380px;
+  margin: 35px auto;
+  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: center;
+  background: $c-bgd-block;
+}

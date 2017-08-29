@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'JF-Flat';
+  src: url("../fonts/JF-Flat-regular.woff") format("woff");
+  /*regular*/
+  font-weight: 400;
+  font-style: normal; }
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'JF-Flat', sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  background: #f6704b;
+  min-height: 100vh; }
+
+.fb-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  padding: 0; }
+  .fb-section--location {
+    background: #620808;
+    color: #ffe9c1; }
+  .fb-section--music {
+    background: #a53f3f;
+    color: #f4ce74; }
+  .fb-section--notes {
+    background: #f4ce74;
+    color: #620808; }
+  .fb-section--books {
+    background: #ffe9c1;
+    color: #a53f3f; }
+  .fb-section--tendances {
+    background: #d5441c;
+    color: #ffe9c1; }
+  .fb-section__header {
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer; }
+  .fb-section__title {
+    margin: 0 0 0 50px;
+    font-size: 24px;
+    line-height: 24px; }
+  .fb-section__text {
+    margin: 0;
+    display: block;
+    padding: 15px;
+    box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.25); }
+
+.fb {
+  width: 380px;
+  margin: 35px auto;
+  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: center;
+  background: #cccccc; }
+
+/*# sourceMappingURL=main.css.map */

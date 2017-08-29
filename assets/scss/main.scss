@@ -1,0 +1,38 @@
+// variables
+$c-bgd-body: #f6704b;
+$c-bgd-block: #cccccc;
+$c-bgd-location: #620808;
+$c-txt-location: #ffe9c1;
+$c-bgd-music: #a53f3f;
+$c-txt-music: #f4ce74;
+$c-bgd-notes: #f4ce74;
+$c-txt-notes: #620808;
+$c-bgd-books: #ffe9c1;
+$c-txt-books: #a53f3f;
+$c-bgd-tendances: #d5441c;
+$c-txt-tendances: #ffe9c1;
+// fonts
+@font-face {
+    font-family: 'JF-Flat';
+    src: url('../fonts/JF-Flat-regular.woff') format('woff');
+    /*regular*/
+    font-weight: 400;
+    font-style: normal;
+}
+//styles
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'JF-Flat', sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  background: $c-bgd-body;
+  min-height: 100vh;
+}
+// import...
+// sections
+@import "sections/fb-section.scss";
+// blocks
+@import "blocks/fb.scss";
